@@ -1,4 +1,4 @@
-import { Mail, Phone, Clock, Instagram } from 'lucide-react';
+import { Mail, Phone, Clock } from 'lucide-react';
 
 export const ContactSection = () => {
     return (

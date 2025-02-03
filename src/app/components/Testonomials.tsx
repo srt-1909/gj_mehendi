@@ -1,11 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 
 export const TestimonialsSection = () => {
   const testimonials = [
     {
       name: "Mitva suthar",
-      image: "/api/placeholder/400/400",
       text: "Stunning, intricate designs that made my event unforgettable! The artist's attention to detail was exceptional, and the mehndi lasted beautifully. Highly recommend for anyone seeking elegant, unique henna art."
     },
     {
@@ -22,8 +20,8 @@ export const TestimonialsSection = () => {
       
       <div className="flex flex-col lg:flex-row gap-8 items-center">
         <div className="lg:w-1/3">
-          <Image 
-            src="/api/placeholder/400/400"
+          <img  
+            src="/CYMERA_20231013_102843 1 (2).jpg"
             alt="Mehndi design showcase"
             width={400}
             height={400}
