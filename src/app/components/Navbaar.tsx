@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <nav className="w-full px-6 py-4 flex items-center justify-between">
       {/* Logo */}
-      <div className="text-2xl font-serif italic">
-        JG Aesthetic Art
+      <div>
+        <img src="/Group 1.svg" alt="JG Aesthetic Art" className="h-8" />
       </div>
 
       {/* Navigation Links */}

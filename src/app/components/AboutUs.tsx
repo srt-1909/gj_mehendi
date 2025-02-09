@@ -5,7 +5,13 @@ const AboutUs = () => {
     <div className="container mx-auto px-4 py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-serif mb-6">About Us</h2>
+          {/* <h2 className="text-3xl font-serif mb-6">About Us</h2> */}
+
+          <img
+    src="/About Us.svg" // Update to point to your image in the public folder
+    alt="Services"
+    className="mx-auto mb-12" // Center the image and give it some margin below
+  />
           <p className="text-gray-700 leading-relaxed">
             JG Mehndi art is a celebrated style known for its exceptional intricacy 
             and creativity, seamlessly blending traditional motifs with modern flair. 
